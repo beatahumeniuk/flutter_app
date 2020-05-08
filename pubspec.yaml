@@ -1,0 +1,38 @@
+name: mobile
+description: A new Flutter application.
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  chopper: ^2.4.1
+  provider: ^3.0.0+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^1.0.0
+  chopper_generator: ^2.3.4
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - images/launcher.png
+    - images/logo.png
+    - images/EY_logo.png
+    - images/s4time.png
+    -
+  fonts:
+    - family: Roboto
+      fonts:
+         - asset: fonts/Roboto-Regular.ttf
+         - asset: fonts/Roboto-Bold.ttf
+           weight: 700
